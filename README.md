@@ -1,5 +1,9 @@
 # dream-hostel
 
+You may be able to access the website using UTM WiFi by copying the following link into your browser  
+10.206.101.189:8080/dreamhostel3/login.php
+Hope it works!
+
 **Problem**  
 Due to the quota and filter system, not every student gets to choose to stay at their desired hostel. Annually, students tend to exchange hostels through social media platforms like Telegram, Facebook and etc. It is a very inefficient way for students who want to exchange their hostel. 
 
