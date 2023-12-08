@@ -55,9 +55,19 @@ When all the match have acccepted the match, their status will be updated to suc
 <img width="948" alt="image" src="https://github.com/Yuylam/dream-hostel/assets/147635499/8a3cc88e-067c-446d-8007-21a7e0d8bf14">
 
 ## Matching mechanism
+Each user are unique by their matric number  
+Each exchange are unique by their exchangeID  
+
 ### Pair match
-A -> B & B -> A 
+A -> B & B -> A  
 When there is a new entry, we are going to search through our database to find if there is other users that can do exchange we the user.  
+
+**Conditions**
+- Current college (A) = Desired college (B)
+- Desired college (A) = Current college (B)
+- Gender (A) = Gender (B)
+- Status (B) = Matching (No match yet)
+- If there are 2 same entries priority is given to those who create a new match first, which is determined by the recordID
 
 If there is no match we are going to look for triplet
 
@@ -65,3 +75,23 @@ If there is no match we are going to look for triplet
 A -> B & B -> C & C -> A  
 If pair is not found, the program will search for triplet.  
 
+When a pair or a triplet is found, their status will be updated
+![image](https://github.com/Yuylam/dream-hostel/assets/147635499/9ae8f19a-02c1-485a-88b0-ab8b23438f20)
+
+![image](https://github.com/Yuylam/dream-hostel/assets/147635499/b83d34b0-0097-42a5-89e5-cf00507a3fb3)
+
+## Confirmation mechanism
+### Accept mechanism
+When a student accept the match, their acceptance and status will be updated accordingly
+![image](https://github.com/Yuylam/dream-hostel/assets/147635499/d745cd41-ea9c-4632-acde-c48714273412)
+
+When all students of the same match accepted the match, their status will be updated to sucessfull
+![image](https://github.com/Yuylam/dream-hostel/assets/147635499/226b6dd1-ed47-4c76-a27a-6071b5638ba6)
+
+### Decline mechanism
+When a student decline a match, the exchange is discarded and pairing will be made  
+Example: A, B, C  
+Let's say A declined the match, the program is going to find another pair for B and C if there is one and update the changes. However for A, we are going to delete it's entry and append it's entry to the table again to change the recordID so that he or she needs to queue again to get an exchange. 
+
+## Future Improvements
+Currently we are only considering the current college and their desired college without considering the room type. In futher improvements, we may include room types into consideration by considering their desired room type.
