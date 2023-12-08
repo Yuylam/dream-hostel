@@ -1,7 +1,7 @@
 # dream-hostel
 
 You may be able to access the website using UTM WiFi by copying the following link into your browser  
-10.206.101.189:8080/dreamhostel3/login.php
+10.206.101.189:8080/dreamhostel3/login.php  
 Hope it works!
 
 **Problem**  
