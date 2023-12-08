@@ -53,3 +53,15 @@ When all the match have acccepted the match, their status will be updated to suc
 
 ## Logout
 <img width="948" alt="image" src="https://github.com/Yuylam/dream-hostel/assets/147635499/8a3cc88e-067c-446d-8007-21a7e0d8bf14">
+
+## Matching mechanism
+### Pair match
+A -> B & B -> A 
+When there is a new entry, we are going to search through our database to find if there is other users that can do exchange we the user.  
+
+If there is no match we are going to look for triplet
+
+### Triplet match
+A -> B & B -> C & C -> A  
+If pair is not found, the program will search for triplet.  
+
