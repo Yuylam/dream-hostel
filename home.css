@@ -1,0 +1,49 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(214, 244, 200, 0.283);
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: center;
+    border: 1px solid #5D7769;
+    border-radius: 10px;
+}
+
+.circle p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.arrow {
+    text-size-adjust: 150%;
+    margin-left: 22px;
+}
+
+#timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: #9FCDB5;
+}
+
+#start {
+    text-align: center;
+}
+
+#confirm {
+    text-align: center;
+}
+

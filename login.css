@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #F8F1B4
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #FCFCCF;
+    height: 40vh;
+    margin: auto;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+}

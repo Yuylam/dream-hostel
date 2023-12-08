@@ -1,0 +1,29 @@
+h1,
+p {
+    text-align: center;
+}
+
+
+body {
+    background-color: #F7CEC4;
+    
+        
+}
+
+#register {
+    text-align: center;
+        border: 1px solid beige;
+        border-radius: 10px;
+        background-color: #FFE4DD;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+        margin: 0;
+}
+
+
+button {
+    margin-top: -20px;
+}

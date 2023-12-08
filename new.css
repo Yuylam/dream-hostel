@@ -1,0 +1,41 @@
+body {
+    background-color: #BDDCFB;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    width: 275px;
+    height: 25vh;
+    text-align: center;
+    background-color: #C1ECFF;
+    border: 1px solid #2AA7DD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
