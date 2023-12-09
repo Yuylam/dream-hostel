@@ -8,7 +8,7 @@ Hope it works!
 Due to the quota and filter system, not every student gets to choose to stay at their desired hostel. Annually, students tend to exchange hostels through social media platforms like Telegram, Facebook and etc. It is a very inefficient way for students who want to exchange their hostel. 
 
 **Solution**  
-A webiste to help these students to match with others to get their desired college. Example: A to B, B to C, C to A
+A website to help these students to match with others to get their desired college. Example: A to B, B to C, C to A
 
 **Tools and Languages**
 - XAMPP
