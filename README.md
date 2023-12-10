@@ -1,9 +1,5 @@
 # dream-hostel
 
-You may be able to access the website using UTM WiFi by copying the following link into your browser:  
-10.206.101.189:8080/dreamhostel3/login.php  
-Hope it works!
-
 **Problem**  
 Due to the quota and filter system, not every student gets to choose to stay at their desired hostel. Annually, students tend to exchange hostels through social media platforms like Telegram, Facebook and etc. It is a very inefficient way for students who want to exchange their hostel. 
 
@@ -77,7 +73,14 @@ If there is no match we are going to look for triplet
 
 ### Triplet match
 A -> B & B -> C & C -> A  
-If pair is not found, the program will search for triplet.  
+If pair is not found, the program will search for triplet. 
+
+Example: 
+1. Current logged in student wanted to change from A to B (Let's name this student 1)
+2. The program will search for a student that wants to change from B to X (Let's name this student 2)
+3. If student 2 is found, the program will search for a student that wants to change from X to A (Let's name this student 3)
+4. If student 3 not found, the program will look for another student 2 that wants to change from B to X
+5. The process repeats until there are no more students that wants to change from B
 
 When a pair or a triplet is found, their status will be updated
 ![image](https://github.com/Yuylam/dream-hostel/assets/147635499/9ae8f19a-02c1-485a-88b0-ab8b23438f20)
