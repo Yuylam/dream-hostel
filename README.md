@@ -82,6 +82,8 @@ Example:
 4. If student 3 not found, the program will look for another student 2 that wants to change from B to X
 5. The process repeats until there are no more students that wants to change from B
 
+![image](https://github.com/Yuylam/dream-hostel/assets/147635499/000139c4-d631-4598-b920-dac48669e49d)
+
 When a pair or a triplet is found, their status will be updated
 ![image](https://github.com/Yuylam/dream-hostel/assets/147635499/9ae8f19a-02c1-485a-88b0-ab8b23438f20)
 
