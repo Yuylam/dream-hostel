@@ -63,10 +63,10 @@ A -> B & B -> A
 When there is a new entry, we are going to search through our database to find if there is other users that can do exchange we the user.  
 
 **Conditions:**
-- Current college (A) = Desired college (B)
-- Desired college (A) = Current college (B)
-- Gender (A) = Gender (B)
-- Status (B) = Matching (No match yet)
+- Current college (student 1) = Desired college (student 2)
+- Desired college (student 1) = Current college (student 2)
+- Gender (student 1) = Gender (student 2)
+- Status = Matching (No match yet)
 - If there are 2 same entries priority is given to those who create a new match first, which is determined by the recordID
 
 If there is no match we are going to look for triplet
@@ -97,8 +97,8 @@ When all students of the same match accept the match, their status will be updat
 
 ### Decline mechanism
 When a student declines a match, the exchange is discarded, and pairing will be made.  
-Example: A, B, C.   
-Let's say A declined the match; the program is going to find another pair for B and C if there is one and update the changes. However, for A, we are going to delete its entry and append its entry to the table again to change the recordID so that he or she needs to queue again to get an exchange.  
+Example: student 1, student 2, student 3.   
+Let's say student 1 declined the match; the program is going to find another pair for student 2 and student 3 if there is one and update the changes. However, for student 1, we are going to delete its entry and append its entry to the table again to change the recordID so that he or she needs to queue again to get an exchange.  
 
 ## Future Improvements
 Currently, we are only considering the current college and their desired college without considering the room type. In further improvements, we may include room types in consideration by considering their desired room type.
